@@ -1,0 +1,9 @@
+contractions
+tensorflow_addons
+tqdm
+nltk
+tensorflow
+numpy
+scikit-learn
+seaborn
+
