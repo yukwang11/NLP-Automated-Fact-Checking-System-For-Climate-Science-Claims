@@ -29,6 +29,7 @@ Theres several files for the project:
 - `evidence.json`: JSON file containing a large number of evidence passages (i.e. the “knowledge source”);
 - `dev-claims-baseline.json`: JSON file containing predictions of a baseline system on the development set;
 - `eval.py`: Python script to evaluate system performance (see “Evaluation” below for more details).
+- `requirements.txt`: The project uses Python and several essential packages. Install the dependencies in your environment.
 
 
 For the labelled claim files (`train-claims.json`, `dev-claims.json`), each instance contains the claim ID, claim text, claim label (one of the four classes: {SUPPORTS, REFUTES, NOT_ENOUGH_INFO, DISPUTED}), and a list of evidence IDs. The unlabelled claim file (test-claims-unlabelled.json) has a similar structure, except that it only contains the claim ID and claim text. 
